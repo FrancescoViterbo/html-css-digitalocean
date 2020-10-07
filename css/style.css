@@ -1,3 +1,7 @@
+a {
+    color: #025feb;
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -7,10 +11,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 0;
 }
 
 form {
-
+    background-color: white;
+    border-radius: 10px;
+    padding: 3rem;
+    max-width: 500px;
 }
 
 .block-button {
@@ -26,4 +34,24 @@ form {
 #buttons {
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+
+#companies, #carousel, #carousel2{
+    background-color: #efefef;
+    text-align: center;
+}
+
+#table, #get-started {
+    background-image: linear-gradient(to bottom, #004ce3, #021a61);
+    text-align: center;
+}
+
+footer {
+    background-color: #000b2e;
+}
+
+footer ul {
+    list-style: none;
+    padding-inline-start: 0;
 }

@@ -22,3 +22,8 @@ form {
     border-left: 1px solid grey;
 
 }
+
+#buttons {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}

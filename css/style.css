@@ -1,3 +1,5 @@
+/* GENERAL SETTINGS */
+
 main h1, main h2, main h3, main h4, main h5, main h6 {
     color: #0c1e59;
     font-weight: bold;
@@ -19,6 +21,12 @@ section {
 a {
     color: #025feb;
 }
+
+.row div {
+    margin-top: 3rem;
+}
+
+/* NAVBAR SETTINGS */
 
 .navbar {
     margin-bottom: 0;
@@ -53,6 +61,8 @@ nav img {
     border: 1px solid #14b8ff;
 }
 
+/* JUMBOTRON SETTINGS */
+
 .jumbotron {
     background-image: url('../images/jumbo-background.svg');
     background-position: center;
@@ -61,14 +71,6 @@ nav img {
     margin-bottom: 0;
     text-align: center;
     color: white;
-}
-
-.row {
-    padding: 5rem auto;
-}
-
-.row div {
-    margin-top: 3rem;
 }
 
 form {
@@ -113,11 +115,7 @@ button img {
     transform: translate(50%, 0);
 }
 
-/* #buttons {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-} */
-
+/* COMPANIES SECTION */
 
 #companies, #carousel, #carousel2{
     background-color: #f3f5f9;
@@ -128,9 +126,54 @@ button img {
     height: 80px;
 }
 
+#companies .row {
+    margin: 5rem auto;
+}
+
+/* DEPLOY SECTION */
+
 #deploy img, #features img {
     height: 40px;
 }
+
+/* CAROUSEL */
+
+.carousel-inner .row div {
+    margin-top: 0;
+}
+.carousel ol {
+    position: absolute;
+    bottom: -8%;
+}
+.carousel ol li {
+    border: 1px solid #025feb;
+}
+.carousel h4 {
+    margin: 2rem auto;
+}
+.carousel-indicators .active {
+    background-color: #025feb;
+}
+.carousel-control.left {
+    position: absolute;
+    left: -8%;
+    opacity: 1;
+    width: auto;
+    color: #0c1e59;
+}
+.carousel-control.right {
+    position: absolute;
+    right: -8%;
+    opacity: 1;
+    width: auto;
+    color: #0c1e59;
+}
+
+#carousel .row div, #carousel2 .row div {
+    margin-top: 1.5rem;
+}
+
+/* TABLE SECTION */
 
 #table, #get-started {
     background-image: linear-gradient(to bottom, #004ce3, #021a61);
@@ -157,16 +200,27 @@ table h4, table p, table a {
     border-bottom: 1px solid white;
 }
 
+
+/* GET STARTED SECTION */
+
+#get-started button {
+    color: #025feb;
+    font-weight: bold;
+}
+
+/* FOOTER SECTION */
+
 footer {
     background-color: #08132e;
     padding: 4rem 0;
 }
 
-footer h4, footer p, footer a {
-    color: white;
+footer p, footer a {
+    color: #aaaaaa;
 }
 
 footer h4 {
+    color: white;
     font-weight: bold;
 }
 
@@ -175,7 +229,47 @@ footer ul {
     padding-inline-start: 0;
 }
 
+footer span {
+    color: #767676;
+}
+
 #footer-logo {
     height: 40px;
     margin-bottom: 1rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 990px) {
+    form {
+        max-width: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }

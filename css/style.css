@@ -42,6 +42,17 @@ a {
 nav img {
     height: 30px;
 }
+
+.navbar-btn {
+    color: #14b8ff;
+    border: 1px solid #14b8ff;
+}
+.navbar-btn:hover {
+    color: #0c1e59;
+    background-color: #14b8ff;
+    border: 1px solid #14b8ff;
+}
+
 .jumbotron {
     background-image: url('../images/jumbo-background.svg');
     background-position: center;
@@ -50,6 +61,10 @@ nav img {
     margin-bottom: 0;
     text-align: center;
     color: white;
+}
+
+#companies .row {
+    margin: 5rem auto;
 }
 
 form {
@@ -123,7 +138,7 @@ footer h4, footer p, footer a {
     color: white;
 }
 
-footer h4, footer a {
+footer h4 {
     font-weight: bold;
 }
 

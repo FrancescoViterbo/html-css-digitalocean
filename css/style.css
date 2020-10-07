@@ -15,5 +15,10 @@ form {
 
 .block-button {
     width: 100%;
-    text-align: center;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    border-color: transparent;
+    border-left: 1px solid grey;
+
 }

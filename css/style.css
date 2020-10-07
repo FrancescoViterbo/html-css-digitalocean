@@ -65,6 +65,19 @@ nav img {
     border: 1px solid #14b8ff;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #025feb;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 5px;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
 /* JUMBOTRON SETTINGS */
 
 .jumbotron {

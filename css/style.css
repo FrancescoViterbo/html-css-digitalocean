@@ -257,6 +257,20 @@ footer span {
     height: 40px;
     margin-bottom: 1rem;
 }
+.row div.socials {
+    margin-top: 1rem;
+}
+footer .socials img {
+    height: 35px;
+    margin: 0 0.3rem;
+}
+footer .socials a:nth-of-type(2) img, footer .socials a:nth-of-type(5) img {
+    height: 25px;
+}
+footer .socials a:first-of-type img {
+    height: 30px;
+    margin: 0 0.6rem 0 0;
+}
 
 /* MEDIA QUERIES */
 
